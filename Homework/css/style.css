@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lato', Helvetica, Arial, sans-serif;
+}
+.continer{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+nav{
+    padding: 15px;
+}
+.nav-top {
+display: flex;
+justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.start a{
+    color: #1F1F1F;
+    font-size: 20px;
+}
+.sign a{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.sign a:hover{
+    background-color: blue;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+     url(../image/bg-showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh; 
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.header-text h1{
+    font-size: 50px;
+    color: white;
+    width: 85%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    margin-top: 30px;
+    border:2px solid white;
+    padding-left: 10px;
+}
+button{
+    background-color: #007BFF;
+    padding: 13px 43px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    border:none;
+}
+button:hover{
+    background-color: blue;
+    border: none;
+}
+
+
+/* icon section */
+#icon-sec{
+    background-color: #F8F9FA;
+}
+.icon-items{
+    display: flex;
+    padding: 125px 0;
+    text-align: center;
+}
+.icon i{
+    color: #1E8AFF;
+    font-size: 70px;
+}
+.icon-item{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.icon-item h2{
+    font-size: 30px;
+}
+.icon-item p{
+    
+    font-size: 20px;
+}
+.icon-item i:hover{
+    transform:scale(1.5);
+}
+/* info section */
+#info{
+    display: flex;
+    flex-direction: column;
+}
+.info-items{
+    display: flex;
+}
+.info-text, .bg-img{
+    flex-basis: 50%;
+    height: 500px;
+}
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-iphone{
+    background-image: url(../image/bg-showcase1.jpg);
+}
+.bg-kod{
+    background-image: url(../image/showcase-2.jpg);
+}
+.bg-baby{
+    background-image: url(../image/bg-showcase-3.jpg);
+}
+.info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+    line-height: 1.7;
+}
+.info-text h2{
+    font-size: 30px;
+}
+.info-text p{
+    font-size: 20px;
+}
+/* testimonials section */
+#testimonials{
+background-color: #F8F9FA;
+padding: 125px 0;
+}
+.people-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.people-heading h2{
+    font-size: 35px;
+}
+.testimonials-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.testimonial-item{
+    flex-basis: 33.33%;
+    margin-top: 40px;
+    line-height: 1.7;
+}
+.testimonial-item img{
+width: 200px;
+height: 200px;
+border-radius: 100%;
+}
+#reqistir{
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url(../image/bg-showcase.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 110px 0;
+}
+.header-text-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-text-bottom h2{
+    color: white;
+    font-size: 35px;
+}
+/* footer-items */
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 125px 0;
+}
+.footer-menu ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-menu li{
+    margin-right: 20px;
+}
+.footer-menu a{
+    color:#1E8AFF;
+}
+.footer-menu a:hover{
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+.footer-social-icon i{
+    color: #007BFF;
+    font-size: 30px;
+    margin: 0 15px;
+}
+.footer-social-icon i:hover{
+    color:blue;
+}
